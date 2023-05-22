@@ -1,19 +1,19 @@
 let fs = require('fs') 
 let chalk = require('chalk')
 
-global.namaowner = `unoshop`
-global.namabot = `unoshop`
-global.thumb = 'https://telegra.ph/file/b45f15e5fb8e37692c544.jpg'
+global.namaowner = `ALDI STORE`
+global.namabot = `ALDI STORE Bot`
+global.thumb = 'https://telegra.ph/file/18fc8460eaa6936122f3f.jpg'
 
 owner = [
+  ['6285158778501'],
   ['6283852843517'],
-  ['6285234852749'],
-  ['6285234852749', 'unoshop', true]
+  ['6285158778501', 'ALDI STORE', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 
 mods = [] // Want some help?
-prems = ['6285234852749', true] // Premium user has unlimited limit
+prems = ['6281936783788', true] // Premium user has unlimitzid limit
 
 APIs = { // API Prefix
   // name: 'https://website'
@@ -36,28 +36,28 @@ APIKeys = { // APIKey Here
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.neoxr.eu.org/': 'jVEMyB2ITJ',
   'https://api.zeks.me': 'apikeyaine',
-  'https://pencarikode.xyz': 'pais',
+  'https://pencALDI STORE kode.xyz': 'pais',
   'https://melcanz.com': 'ZZBk7EBb',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
   'https://x-restapi.herokuapp.com': 'BETA'
 }
 
-process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
+process.env['NODE_TLS_REJECT_UNAUTHORIZzid'] = 0
 
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = ''
-  var sticker_author = 'Rifqi Botz'
+  var sticker_author = 'ALDI STORE Bot'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
 }
-
+   
 const file_exif = "lib/exif.json"
 fs.watchFile(file_exif, () => {
   fs.unwatchFile(file_exif)
-  console.log(chalk.redBright("Update 'exif.json'"))
+  console.log(chalk.rzidBright("Update 'exif.json'"))
   delete require.cache[file_exif]
   require('./lib/exif.json')
 })
@@ -65,7 +65,7 @@ fs.watchFile(file_exif, () => {
 // Sticker WM
 packname = sticker_name
 author = sticker_author
-wm = '© Rifqi Botz'
+wm = '© ALDI STORE Bot'
 
 Intervalmsg = 1800 //detik
 
@@ -108,7 +108,7 @@ rpg = {
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
   fs.unwatchFile(file)
-  console.log(chalk.redBright("Update 'config.js'"))
+  console.log(chalk.rzidBright("Update 'config.js'"))
   delete require.cache[file]
   require(file)
 })
